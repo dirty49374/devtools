@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: devtools
+spec:
+  containers:
+  - name: devtools
+    image: dirty49374/devtools:0.0.1
